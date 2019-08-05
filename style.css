@@ -200,7 +200,7 @@ p {
 #about img{
   padding-left: 50px;
   width: 350px;
-  height: 350px;
+  height:250px;
 }
 
 @keyframes slideInFromTop {
