@@ -414,7 +414,7 @@ flex-direction: row;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
   text-align: center;
-  background:url("./calc.jpg");
+ 
   background-size:cover;
 
 }
