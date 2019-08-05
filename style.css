@@ -409,7 +409,16 @@ flex-direction: row;
 }
 
 /* front pane, placed above back */
-.front {
+.front1 {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+  text-align: center;
+ background:url("./calc.jpg");
+  background-size:cover;
+
+}
+.front2 {
 	z-index: 2;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
@@ -424,7 +433,14 @@ flex-direction: row;
 }
 
 /* back, initially hidden pane */
-.back {
+.back1 {
+  transform: rotateY(180deg);
+  text-align: center;
+  background:url("./D1.JPG");
+  background-size:cover;
+
+}
+.back2 {
   transform: rotateY(180deg);
   text-align: center;
   background:url("./D1.JPG");
